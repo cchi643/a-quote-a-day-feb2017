@@ -6,7 +6,7 @@ var express = require('express'); //web application frame work, also called expr
 var app = express();
 
 app.get('/', function(req,res){
-   res.sendFile(--dirname + '/index.html');
+   res.sendFile(__dirname + '/index.html');
 });
 
 
