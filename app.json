@@ -1,0 +1,15 @@
+{
+  "name": "a-quote-a-day-feb2017",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
