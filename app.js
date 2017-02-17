@@ -14,7 +14,7 @@ app.get('/', function(request,response){
 var port = process.env.port ||8080;
 
 var server = app.listen(port, function(reg, res){
-    console.log("Server running on port 8080");// http:localhost:3000
+    console.log("catch the action at http://localhost:" +port);// http:localhost:3000
 });
 
 console.log("a-quote-a-day project started");
